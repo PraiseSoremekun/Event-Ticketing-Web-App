@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* Navigation Bar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: #f1db4b 0.5px solid;
+  /* margin-left: 76px; */
+  margin-top: 3px;
+  /* margin-bottom: 35px; */
+}
+#navbar img {
+  width: 70px;
+  margin-left: 60px;
+}
+
+.navbar1 li {
+  display: inline-block;
+  padding-right: 70px;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: normal !important;
+  font-family: "oxygen", sans-serif;
+}
+
+.navbar1 li:hover {
+  text-decoration: #7e2323 underline;
+}
+
+.navbar2 li {
+  display: inline-block;
+  padding-right: 70px;
+  font-weight: normal;
+  font-family: "oxygen", sans-serif;
+  /* font-weight: lighter; */
+}
+#navbar a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: normal !important;
+}
+
+.navbar2 .Log {
+  background-color: #f1db4b;
+  padding: 8px 30px;
+  font-size: 12px;
+  border-radius: 9px;
+  font-weight: 400;
+}
+.navbar2 .sign {
+  background-color: white;
+  color: #000;
+  padding: 7px 30px;
+  font-size: 12px;
+  border: darkred 1px solid;
+  border-radius: 9px;
+  font-weight: 400;
+}
+
+/* signuo section */
+.signup {
+  width: 100%;
+  /* border: 0.5px solid; */
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.signup-img img {
+  width: 650px;
+}
+
+.signup-texts {
+  margin-top: 70px;
+  /* border: 1px solid; */
+  width: 45%;
+  margin-left: 20px;
+}
+
+.sitexts {
+  text-align: center;
+}
+
+.sitexts h2 {
+  color: #e79e03;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.sitexts p {
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+.sitexts a {
+  text-decoration: none;
+  color: #e79e03;
+}
+
+.input {
+  margin-top: 30px;
+  /* margin-left: 20px; */
+}
+
+.inputt {
+  width: 500px;
+  padding: 10px;
+}
+label {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+/* .signbut{
+  margin: 30px 0px;
+  text-align: center;
+  background-color:  #E79E03;
+} */
+
+.signbut {
+  margin: 50px 5px 0px;
+  background-color: #e79e03;
+  color: white;
+  width: 520px;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 8px;
+}
+
+.signbut a {
+  text-decoration: none;
+  color: white;
+}
+
+.divider-container {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  margin: 0px 5px 40px;
+}
+
+.divider-text {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: black;
+}
+
+.divider-text::before,
+.divider-text::after {
+  content: "";
+  width: 200px;
+  height: 1px;
+  background: black;
+  margin: 0 0px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+  /* border: #7e2323 solid; */
+}
+
+.google {
+  border: #e79e03 0.5px solid;
+  padding: 12px 75px;
+  border-radius: 10px;
+  span{
+    font-size: 20px;
+    color: black;
+  }
+}
+
+.facebook {
+  border: #e79e03 0.5px solid;
+  padding: 12px 75px;
+  border-radius: 10px;
+  span{
+    font-size: 20px;
+    color: black;
+  }
+}
+.facebooka{
+  text-decoration: none;
+}
+
+.googlea{
+  text-decoration: none;
+}
+
+.google .fa-brands{
+  font-size: 20px;
+}
+
+.facebook .fa-brands{
+  font-size: 20px;
+  color: blue;
+}

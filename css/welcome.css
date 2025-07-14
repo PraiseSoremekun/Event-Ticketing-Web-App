@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(247, 202, 208, 0.747);
+}
+
+.container {
+  background-color: white;
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+  padding-top: 60px;
+  padding-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.container * {
+  opacity: 1;
+  background-color: transparent;
+  color: black;
+}
+
+.container img {
+  width: 17%;
+}
+
+.container h1 {
+  font-family: "oxygen" sans-serif;
+  font-size: 50px;
+  margin-top: 40px;
+  font-weight: normal;
+}
+
+.container p {
+  font-family: "lato" sans-serif;
+  font-size: 12px;
+  padding-top: 13px;
+  font-weight: normal;
+}
+
+.log {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 30px auto 20px;
+  background-color: lightgray;
+  padding: 5px 25px;
+  border-radius: 15px;
+  align-items: center;
+}
+.log h5 {
+  font-family: "oxygen" sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.in {
+  background: white;
+  padding: 5px 25px;
+  border-radius: 15px;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  margin: 30px auto 30px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 7px 25px;
+  width: fit-content;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.email-icon {
+  color: darkred;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background-color: rgb(70, 67, 67);
+  margin-right: 15px;
+}
+
+.email-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-right: 15px;
+}
+
+.email-label {
+  font-size: 12px;
+  color: gray;
+}
+
+.email-text {
+  font-size: 10px;
+  font-weight: 500;
+  color: black;
+}
+
+.check-icon {
+  color: green;
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.container a {
+  background-color: #ffe347;
+  text-decoration: none;
+  padding: 10px 100px;
+  border-radius: 12px;
+  font-family: "oxygen" sans-serif;
+}
+
+.divider-container {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.divider-text {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.divider-text::before,
+.divider-text::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background: #aaa;
+  margin: 0 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px; /* ✅ Tighter spacing */
+  justify-content: center;
+  margin: auto;
+  width: 140px; /* ✅ Same width as text + lines */
+}
+
+.social-icon {
+  width: 48px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.facebook {
+  background-color: #0d56b6;
+  color: white;
+}
+
+.apple {
+  background-color: #000;
+  color: white;
+}
+
+.google {
+  background-color: #efecec;
+  color: #000;
+}

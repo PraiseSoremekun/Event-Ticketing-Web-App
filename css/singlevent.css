@@ -66,11 +66,11 @@
 
 /* Herosection */
 .herosection {
-  height: 100vh;
-  background-image: url(../asset/image/payimg.svg);
+  /* height: 100vh; */
+  background-image: url(../asset/image/coreectpayimg.svg);
   background-size: cover;
   width: 100%;
-  height: 76vh;
+  height: 100vh;
   max-width: 1600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,20 +148,265 @@
   font-size: 18px;
 }
 
-.ticket-section{
-    margin: 40px auto;
-    width: 90%;
+.ticket-section {
+  margin: 40px auto;
+  width: 90%;
 
-    h2{
-        text-align: center;
-        margin-bottom: 20px;
-    }
-}
-
-.ticket-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border: 1px solid;
+  h2 {
     text-align: center;
+    margin-bottom: 20px;
+  }
 }
 
+.ticket-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 15px;
+}
+
+.ticket-card {
+  border: 0.5px solid #e79e03;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  width: 200px;
+}
+
+.ticket-card h2 {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  margin: -20px; /* cancels out the parent padding */
+  margin-bottom: 20px; /* keep bottom space */
+  padding: 20px;
+  padding-bottom: 0; /* put padding back inside this section */
+  border-bottom: 1px solid #e79e03;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.ticket-card div p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.buy-btn {
+  display: inline-block;
+  padding: 15px 65px;
+  background-color: #f2a007;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0px 0px 20px rgba(242, 160, 7, 1.5); /* 👈 This is the shadow */
+  transition: transform 0.2s ease;
+}
+
+.buy-btn:hover {
+  transform: translateY(-2px);
+}
+
+.t1 {
+  height: 380px;
+}
+
+.t2 {
+  height: 420px;
+}
+
+.t3 {
+  height: 460px;
+}
+.t4 {
+  height: 500px;
+}
+
+.texts {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.texts p {
+  padding-bottom: 20px;
+}
+
+.ticket-card h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.highlight {
+  margin-top: 80px;
+
+  margin-bottom: 80px;
+  img {
+    width: 1500px;
+  }
+}
+
+.highlight h2 {
+  margin-left: 80px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.arrows {
+  margin-top: 15px;
+  margin-left: 900px;
+  display: flex;
+  align-items: center;
+  gap: 30px !important;
+
+  img {
+    width: 30px;
+  }
+}
+
+/* Similar */
+.similar{
+  margin-bottom: 40px;
+}
+.similar h2 {
+  margin-left: 80px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.eventscard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+
+.events {
+  background: #08268f0d;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.eventsimg {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.eventtext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.et {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.et img {
+  width: 15px;
+  height: 15px;
+}
+
+.et span {
+  font-size: 13px;
+  color: #848484;
+}
+
+.event-dates {
+  background-color: #061c68;
+  padding: 13px;
+  text-align: center;
+  color: #e79e03;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+/* footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  /* border: #eee solid; */
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-column {
+  flex: 1 1 160px;
+  /* margin: 20px; */
+}
+
+.footer-column h2 {
+  font-family: "Cinzel", serif; /* Optional: Use if you want a fancy title font */
+  font-size: 24px;
+}
+
+.footer-column h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "oxygen", sans-serif;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  /* font-family: "lato", sans-serif;
+  font-weight: 100; */
+}
+
+.footer-column ul li {
+  margin-bottom: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+}
+
+.footer-column p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.footer-column ul li:hover {
+  text-decoration: underline;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #ccc;
+}

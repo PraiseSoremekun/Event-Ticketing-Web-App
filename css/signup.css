@@ -174,27 +174,27 @@ label {
   border: #e79e03 0.5px solid;
   padding: 12px 75px;
   border-radius: 10px;
-  span{
-    font-size: 20px;
-    color: black;
-  }
 }
 
 .facebook {
   border: #e79e03 0.5px solid;
   padding: 12px 75px;
   border-radius: 10px;
-  span{
-    font-size: 20px;
-    color: black;
-  }
 }
 .facebooka{
   text-decoration: none;
+  color: #000;
 }
 
 .googlea{
   text-decoration: none;
+  color: #000;
+}
+
+.google span,
+.facebook span {
+  font-size: 20px;
+  color: black;
 }
 
 .google .fa-brands{

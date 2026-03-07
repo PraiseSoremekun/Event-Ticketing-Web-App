@@ -371,10 +371,11 @@
   /* margin-left: 13px; */
   gap: 10px;
   margin-top: 20px;
-  span{
-    font-size: 15px;
-    color: gray;
-    }
+}
+
+.images-container span{
+  font-size: 15px;
+  color: gray;
 }
 
 .person{
@@ -393,6 +394,10 @@
   gap: 20px !important;
   row-gap: 100px !important;
   padding: 0px;
+}
+.cardgrid2 a{
+  text-decoration: none;
+  color: #000;
 }
 
 /* banner img */

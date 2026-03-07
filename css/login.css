@@ -208,27 +208,27 @@ label {
   border: #e79e03 0.5px solid;
   padding: 12px 75px;
   border-radius: 10px;
-  span {
-    font-size: 20px;
-    color: black;
-  }
 }
 
 .facebook {
   border: #e79e03 0.5px solid;
   padding: 12px 75px;
   border-radius: 10px;
-  span {
-    font-size: 20px;
-    color: black;
-  }
 }
 .facebooka {
   text-decoration: none;
+  color: #000;
 }
 
 .googlea {
   text-decoration: none;
+  color: #000;
+}
+
+.google span,
+.facebook span {
+  font-size: 20px;
+  color: black;
 }
 
 .google .fa-brands {
@@ -243,13 +243,13 @@ label {
 .account {
   margin-top: 50px;
   margin-left: 150px;
-
-  a {
-    text-decoration: none;
-    color: #e79e03;
-  }
 }
 
-.account a:hover{
+.account a {
+  text-decoration: none;
+  color: #e79e03;
+}
+
+.account a:hover {
   text-decoration: underline;
 }

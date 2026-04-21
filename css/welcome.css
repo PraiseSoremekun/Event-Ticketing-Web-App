@@ -178,3 +178,56 @@
   background-color: #efecec;
   color: #000;
 }
+
+/* Responsive */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding: 16px 0;
+}
+
+.container {
+  width: min(92%, 480px);
+  height: auto;
+  padding-inline: 16px;
+}
+
+.email-container {
+  width: 100%;
+  max-width: 340px;
+}
+
+.container a {
+  display: inline-block;
+  width: min(100%, 320px);
+  padding: 12px 16px;
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 36px;
+  }
+
+  .log {
+    width: 100%;
+    max-width: 280px;
+    padding: 6px 10px;
+  }
+
+  .log h5 {
+    font-size: 16px;
+  }
+
+  .in {
+    padding: 5px 16px;
+  }
+
+  .email-container {
+    padding: 7px 12px;
+  }
+}
